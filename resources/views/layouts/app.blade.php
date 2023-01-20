@@ -11,11 +11,11 @@
     <header>
         @include("partials.navbar")
         @yield("navbar")
-
-
     </header>
+    <h1>Vediamo se funziona</h1>
+    @include("partials.footer")
+    @yield("footer")
 
-<h1>Vediamo se funziona</h1>
     
 </body>
 </html>
