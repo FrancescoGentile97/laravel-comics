@@ -40,7 +40,7 @@
 
                 <div class="col">
                     <img src="{{ Vite::asset("resources/img/buy-comics-subscriptions.png")}}" class="">
-                    <a href="" class="text-white">SUBSCRIPTION</a>
+                    <a href="" class="text-white"></a>
                 </div>
 
                 <div class="col">

@@ -51,19 +51,20 @@
                     <li><a href="">Shop DC</a></li>
                     <li><a href="">Shop DC Collectibles</a></li>
                 </ul>
-                <p>Robe di crediti troppo difficili da ricopiare con qualche link in mezzo</p>
+                <p class="text-white">Robe di crediti troppo difficili da ricopiare con qualche link in mezzo</p>
             </div> 
-            <div class="d-flex">
-                <button class="btn btn-outline-primary me-auto">SIGN UP NOW!</button>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <a href="">a</a>
             </div>
-
         </div>
-
+        <section class="bg-dark py-4">
+            <div class="container d-flex justify-content-between align-items-center gap-3">
+                <button class="btn btn-outline-primary me-auto text-white">SIGN UP NOW!</button>
+                <a href="" class="text-primary fw-bold text-decoration-none">FOLLOW US</a>
+                <a href=""><img src="{{ Vite::asset("resources/img/footer-facebook.png")}}"></a>
+                <a href=""><img src="{{ Vite::asset("resources/img/footer-periscope.png")}}"></a>
+                <a href=""><img src="{{ Vite::asset("resources/img/footer-pinterest.png")}}"></a>
+                <a href=""><img src="{{ Vite::asset("resources/img/footer-twitter.png")}}"></a>
+                <a href=""><img src="{{ Vite::asset("resources/img/footer-youtube.png")}}"></a>
+            </div>
+        </section>
     </footer>
     @endsection
