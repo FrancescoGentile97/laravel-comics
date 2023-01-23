@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 // route della home
 Route::get('/', function () {
-    return view("home");
+    $comicsArray = config("comics");
+    return view("home",[
+        "comicsList" => $comicsArray
+    ]);
+    
 })->name("home");
 
 // route dei personaggi
@@ -30,8 +34,8 @@ Route::get("/movie", function () {
 
 // prova route per i fumetti
 Route::get("/comics", function(){
-    $comics = config("comics");
+    $comicsArray = config("comics");
     return view("partials.comics",[
-        "comicsList" => $comics
+        "comicsList" => $comicsArray
     ]);
 })->name("comics");

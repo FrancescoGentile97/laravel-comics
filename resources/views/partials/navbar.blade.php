@@ -1,53 +1,53 @@
 @section("navbar")
 <nav class="navbar navbar-expand-lg my-margin-r my-margin-l">
-  <div class="container-fluid">
-  <img src="{{ Vite::asset("resources/img/dc-logo.png")}}" class="my-logo">
+<div class="container-fluid">
+<img src="{{ Vite::asset("resources/img/dc-logo.png")}}" class="my-logo">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Characters</a>
+            <a class="nav-link active" aria-current="page" href="#">Characters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Comics</a>
+            <a class="nav-link" href="#">Comics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tv</a>
+            <a class="nav-link" href="#">Tv</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Games</a>
+            <a class="nav-link" href="#">Games</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Collectibles</a>
+            <a class="nav-link" href="#">Collectibles</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fans</a>
+            <a class="nav-link" href="#">Fans</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">New</a>
+            <a class="nav-link" href="#">New</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Shop
-          </a>
-          <ul class="dropdown-menu">
+        </a>
+            <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+            </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link disabled">Disabled</a>
         </li>
-      </ul>
-      <form class="d-flex" role="search">
+        </ul>
+        <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-primary" type="submit">Search</button>
-      </form>
+        </form>
     </div>
-  </div>
+</div>
 </nav>
 @endsection

@@ -12,6 +12,8 @@
         @include("partials.navbar")
         @yield("navbar")
     </header>
+        @include("partials.comics")
+        @yield("comicsStamp")
     <h1>Vediamo se funziona</h1>
     @include("partials.footer")
     @yield("footer")
